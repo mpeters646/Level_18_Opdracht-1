@@ -9,23 +9,23 @@ const ikRockArrowFunctions = function () {
 ikRockArrowFunctions()
 ```
 
-## Deel A:
+## Deel A`:`
 
-    Bekijk de bovenstaande functie. Bouw deze functie om tot een arrow function
+- Bekijk de bovenstaande functie. Bouw deze functie om tot een arrow function
 
-    Remember: => vervangt het woord function en wordt in plaats van vóór de haken (), áchter de haken () geplaatst.
+- Remember: => vervangt het woord function en wordt in plaats van vóór de haken (), áchter de haken () geplaatst.
 
-## Deel B:
+## Deel B`:`
 
-    Met arrow functions kun je ook de curly braces ("{" en "}") weglaten wanneer je de functie body op één regel kunt schrijven. De arrow heeft namelijk ook een impliciete return statement in zich wanneer je de curly braces weglaat.
+- Met arrow functions kun je ook de curly braces ("{" en "}") weglaten wanneer je de functie body op één regel kunt schrijven. De arrow heeft namelijk ook een impliciete return statement in zich wanneer je de curly braces weglaat.
 
-    Remember: waar de arrow naar wijst wordt automatisch geretourneerd.
+- Remember: waar de arrow naar wijst wordt automatisch geretourneerd.
 
-    Als de functie-body te veel is voor 1 regel, dan wijst de arrow dus niet meer direct naar hetgeen je wilt returnen. Ergo: je hebt een return statement nodig.
+- Als de functie-body te veel is voor 1 regel, dan wijst de arrow dus niet meer direct naar hetgeen je wilt returnen. Ergo: je hebt een return statement nodig.
 
-### Opdracht:
+### Opdracht B`:`
 
-    schrijf de onderstaande functie om naar een arrow functie op 1 regel.
+- schrijf de onderstaande functie om naar een arrow functie op 1 regel.
 
 ```JS
 const fivePlusSeven = function () {
@@ -36,26 +36,26 @@ fivePlusSeven();
 
 ```
 
-## Deel C:
+## Deel C`:`
 
-    Als je parameter toe wilt voegen aan een arrow function, dan gaat dat op precies dezelfde manier als je gewend bent: tussen de haakjes.
+- Als je parameter toe wilt voegen aan een arrow function, dan gaat dat op precies dezelfde manier als je gewend bent: tussen de haakjes.
 
-### Opdracht:
+### Opdracht C`:`
 
-    Schrijf een arrow function, op 1 regel (dus met een impliciete return statement), die de params a en b bij-elkaar optelt. Noem de functie myFunction.
+- Schrijf een arrow function, op 1 regel (dus met een impliciete return statement), die de params a en b bij-elkaar optelt. Noem de functie myFunction.
 
-## Deel D:
+## Deel D`:`
 
-    Als je slechts 1 parameter hebt, kun je de haakjes zelfs helemaal weglaten.
+- Als je slechts 1 parameter hebt, kun je de haakjes zelfs helemaal weglaten.
 
-### Opdracht:
+### Opdracht D`:`
 
-    Schrijf een arrow function op 1 regel, die de parameter a behoudt, en altijd a plus 5 returned. Noem de functie addFive.
+- Schrijf een arrow function op 1 regel, die de parameter a behoudt, en altijd a plus 5 returned. Noem de functie addFive.
 
-## Deel E:
+## Deel E`:`
 
-     Je hebt gezien dat arrow functions een implicit return statement hebben wanneer je de code op 1 regel kunt schrijven. Er is 1 uitzondering, namelijk bij het returnen van een object {} . Wanneer je een object returned moet het object in een () gezet worden, om niet verward te worden met de curly braces {} van een function.
+- Je hebt gezien dat arrow functions een implicit return statement hebben wanneer je de code op 1 regel kunt schrijven. Er is 1 uitzondering, namelijk bij het returnen van een object {} . Wanneer je een object returned moet het object in een () gezet worden, om niet verward te worden met de curly braces {} van een function.
 
-### Opdracht:
+### Opdracht E`:`
 
-    Schrijf een arrow function met de naam createObject met een implicit return statement (dus op 1 regel) die een simpel object returned: {greeting: "hoi"}
+- Schrijf een arrow function met de naam createObject met een implicit return statement (dus op 1 regel) die een simpel object returned: {greeting: "hoi"}
